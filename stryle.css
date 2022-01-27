@@ -11,6 +11,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: var(--isabelline);
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+
+    display: block; /*Altera o modo de mostrar a imagem para um bloco*/
+    width: 50%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
+    margin-left: auto; /*define a margem a esquerda o que sobrou do tamanho total horizondal*/
+    margin-right: auto; /*define a margem a direita o que sobrou do tamanho total horizondal*/
+}
+
+/*
+------------> IMPORTANTE <------------
+Todos estes @media fazem com que o bloco de conteúdo do site, dependendo do tamanho da tela se torne maior ou menor.
+*/
+
+@media (max-width: 1000px) {
+    body {
+        width: 70%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
+    }
+}
+
+@media (max-width: 900px) {
+    body {
+        width: 80%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        width: 90%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
+    }
+}
+
+body {
     background-color: var(--isabelline);
     font-family: 'Roboto', sans-serif;
     color: #000;
