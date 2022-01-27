@@ -1,0 +1,57 @@
+/*Definindo cores Variáveis*/
+:root {
+    --dark-liver: #484349ff;
+    --isabelline: #f7f0f0ff;
+    --electric-blue: #8af3ffff;
+    --persian-green: #18a999ff;
+    --spanish-green: #109648ff;
+}
+
+/*Carregando as Fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+    background-color: var(--isabelline);
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+.blocar {
+    display: block; /*Altera o modo de mostrar a imagem para um bloco*/
+    width: 80%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
+    margin-left: auto; /*define a margem a esquerda o que sobrou do tamanho total horizondal*/
+    margin-right: auto; /*define a margem a direita o que sobrou do tamanho total horizondal*/
+}
+
+#person-details {
+    color: var(--spanish-green);
+}
+
+.profile {
+    border-radius: 100px; /*Arredonda as bordas*/
+    width: 40%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
+}
+
+#primeiroTitulo {
+    text-align: center;
+    color: var(--dark-liver);
+    margin-bottom: 25px;
+}
+
+.minhaDesc {
+    text-align: center;
+    width: 60%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
+}
+
+.divs-de-secoes {
+    margin: 50px 20px 50px 20px;
+}
+
+.lista-de-desc {
+    line-height: 3px;
+    color: var(--persian-green);
+}
+
+.secoes-titulo {
+    text-align: center;
+}
