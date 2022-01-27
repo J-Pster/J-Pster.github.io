@@ -17,7 +17,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #000;
 
-    display: block; /*Altera o modo de mostrar a imagem para um bloco*/
+    display: block; /*Altera o modo de mostrar o conteúdo para um bloco*/
     width: 50%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
     margin-left: auto; /*define a margem a esquerda o que sobrou do tamanho total horizondal*/
     margin-right: auto; /*define a margem a direita o que sobrou do tamanho total horizondal*/
@@ -53,7 +53,7 @@ body {
 }
 
 .blocar {
-    display: block; /*Altera o modo de mostrar a imagem para um bloco*/
+    display: block; /*Altera o modo de mostrar o conteúdo para um bloco*/
     width: 80%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
     margin-left: auto; /*define a margem a esquerda o que sobrou do tamanho total horizondal*/
     margin-right: auto; /*define a margem a direita o que sobrou do tamanho total horizondal*/
