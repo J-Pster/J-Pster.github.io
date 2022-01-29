@@ -11,16 +11,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 body {
-    margin-top: 50px;
-    margin-bottom: 50px;
     background-color: var(--isabelline);
     font-family: 'Roboto', sans-serif;
     color: #000;
 
     display: block; /*Altera o modo de mostrar o conteúdo para um bloco*/
-    width: 50%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
-    margin-left: auto; /*define a margem a esquerda o que sobrou do tamanho total horizondal*/
-    margin-right: auto; /*define a margem a direita o que sobrou do tamanho total horizondal*/
+    width: 50%; /*define que este bloco tenha tamanho de X% do tamanho total horizontal da página*/
+    margin: auto; /*Define a margem para automático*/
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /*
@@ -52,11 +51,16 @@ body {
     color: #000;
 }
 
-.blocar {
-    display: block; /*Altera o modo de mostrar o conteúdo para um bloco*/
-    width: 80%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
-    margin-left: auto; /*define a margem a esquerda o que sobrou do tamanho total horizondal*/
-    margin-right: auto; /*define a margem a direita o que sobrou do tamanho total horizondal*/
+#secaodescricao {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+#umPoucoMais {
+    width: 90%;
+    margin: auto;
+    text-align: center;
 }
 
 #person-details {
@@ -65,18 +69,11 @@ body {
 
 .profile {
     border-radius: 100px; /*Arredonda as bordas*/
-    width: 40%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
 }
 
 #primeiroTitulo {
-    text-align: center;
     color: var(--dark-liver);
     margin-bottom: 25px;
-}
-
-.minhaDesc {
-    text-align: center;
-    width: 60%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
 }
 
 .divs-de-secoes {
@@ -88,6 +85,13 @@ body {
     color: var(--persian-green);
 }
 
-.secoes-titulo {
-    text-align: center;
+#hardskills, #softskills {
+    width: 48%;
+    margin-right: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#hardskills {
+    padding-right: 15px;
 }
